@@ -8,9 +8,10 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [
     RouterOutlet,
+    RouterModule,
     HomeComponent,
     HousingLocationComponent,
-    RouterModule
+    
   ],
   template: `
   <main>
